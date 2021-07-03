@@ -6,6 +6,7 @@ function multiplication(){
     } else if (userNumber <= 1 || userNumber > 20) {
         alert("El número esta fuera de rango")
         console.log(`"${userNumber}" esta fuera de rango`)
+        userNumber = null
     } else {
         alert("El número es invalido")
         return null
